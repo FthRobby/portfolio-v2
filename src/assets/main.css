@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+#app,
+html,
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
