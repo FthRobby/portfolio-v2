@@ -1,6 +1,6 @@
 <template>
   <div class="md:w-2/3 px-8">
-    <!-- short pic -->
+    <!-- about me -->
     <div class="mb-6 mt-9">
       <h2 class="mt-6 text-4xl text-neutral font-bold capitalize dark:text-white">Hi, I'm Roby</h2>
       <p class="mt-8 mb-4 dark:text-white text-neutral">Final semester students who understand and have an interest in
@@ -57,7 +57,7 @@
             <div class="collapse-title text-xl font-medium">
               Pemrograman Web
             </div>
-            <div class="collapse-content text-neutral">
+            <div class="collapse-content">
               <a href="https://www.dicoding.com/certificates/GRX5K8M63Z0M" target="_blank"><img
                   src="../assets/banner_certif.png" class="w-full" alt="" /></a>
               <p class="font-bold mt-3 mb-3">Dicoding Certification : <br /> Dasar Pemrograman Web </p>
