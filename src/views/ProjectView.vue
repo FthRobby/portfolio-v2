@@ -17,10 +17,12 @@
       </div>
     </div>
   </div>
+  <Footer />
 </template>
 
 <script setup>
 import ProjectList from "../components/ProjectList.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <style>

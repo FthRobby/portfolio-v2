@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import HomePage from "./views/HomePage.vue";
+import axios from "axios";
 </script>
 
 <template>
@@ -21,6 +22,9 @@ import HomePage from "./views/HomePage.vue";
           <li>
             <RouterLink class="dark:text-white text-neutral" to="/projects">Projects</RouterLink>
           </li>
+          <li>
+            <RouterLink class="dark:text-white text-neutral" to="/posts">Blogs</RouterLink>
+          </li>
         </ul>
       </div>
       <RouterLink class="btn btn-ghost normal-case text-xl dark:text-white text-neutral" to="/">Fatah Robby</RouterLink>
@@ -33,10 +37,14 @@ import HomePage from "./views/HomePage.vue";
         <li>
           <RouterLink class="dark:text-white text-neutral" to="/projects">Projects</RouterLink>
         </li>
+        <li>
+          <RouterLink class="dark:text-white text-neutral" to="/posts">Blogs</RouterLink>
+        </li>
       </ul>
     </div>
-    <div class="navbar-end hidden">
-      <a class="btn btn-sm btn-neutral dark:btn-primary"><i class="fa fa-github text-xl"></i></a>
+    <div class="navbar-end">
+      <a href="https://github.com/fthrobby" target="_blank" class="btn btn-sm btn-neutral dark:btn-primary"><i
+          class="fa fa-github text-xl"></i></a>
     </div>
   </div>
 
