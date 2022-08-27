@@ -25,5 +25,14 @@ import ProjectList from "../components/ProjectList.vue";
 import Footer from "../components/Footer.vue";
 </script>
 
+<script>
+export default {
+  name: 'app',
+  created() {
+    document.title = "Fatah Robby | Projects";
+  }
+}
+</script>
+
 <style>
 </style>

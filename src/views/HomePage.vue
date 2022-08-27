@@ -8,5 +8,14 @@ import Footer from "../components/Footer.vue";
   <Footer />
 </template>
 
+<script>
+export default {
+  name: 'app',
+  created() {
+    document.title = "Fatah Robby | Home";
+  }
+}
+</script>
+
 <style>
 </style>

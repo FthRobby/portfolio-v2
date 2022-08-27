@@ -19,7 +19,12 @@
 </template>
 
 <script>
-
+export default {
+  name: 'app',
+  created() {
+    document.title = "Fatah Robby | Posts";
+  }
+}
 </script>
 
 <style>
