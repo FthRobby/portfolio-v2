@@ -42,9 +42,9 @@ import axios from "axios";
         </li>
       </ul>
     </div>
-    <div class="navbar-end">
-      <a href="https://github.com/fthrobby" target="_blank" class="btn btn-sm btn-neutral dark:btn-primary"><i
-          class="fa fa-github text-xl"></i></a>
+    <div class="navbar-end ">
+      <a href="https://github.com/fthrobby" target="_blank" class="text-xl btn btn-sm btn-neutral dark:btn-primary">
+        <i class="fab fa-github-alt text-2xl"></i> </a>
     </div>
   </div>
 

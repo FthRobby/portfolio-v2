@@ -7,8 +7,12 @@
         <div class="mb-2 mx-7 mt-4 justif-center items-center">
           <h1 class="md:text-3xl text-2xl text-neutral font-semibold dark:text-white">Fatah RobbySalam</h1>
           <div class="md:text-lg text-neutral dark:text-white">Website Developer</div>
-          <a href="#" class="text-neutral dark:text-white md:hidden mt-1"></a>
+          <a href="https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf"
+            class="text-neutral dark:text-white md:hidden mt-1 btn btn-sm dark:btn-primary">
+            <i class="fa fa-download mr-2"></i>Download CV
+          </a>
         </div>
+
       </div>
       <div class="mx-7 hidden md:block">
         <div class="my-2 text-neutral flex dark:text-white">
@@ -16,8 +20,15 @@
               class="fa fa-envelope mr-2"></i>rbysalam10@gmail.com</a>
         </div>
         <div class="my-2 text-neutral flex dark:text-white">
-          <a href="https://www.linkedin.com/in/fatah-robbysalam/" target="_blank"> <i
-              class="devicon-linkedin-plain colored mr-2 text-primary "></i>Fatah RobbySalam</a>
+          <a href="https://www.linkedin.com/in/fatah-robbysalam/" target="_blank">
+            <i class="devicon-linkedin-plain colored mr-2 text-primary "></i>Fatah RobbySalam
+          </a>
+        </div>
+        <div class="my-2">
+          <a href="https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf"
+            class="text-neutral dark:text-white mt-1 btn btn-sm dark:btn-primary rounded">
+            <i class="fa fa-download mr-2"></i>Download CV
+          </a>
         </div>
       </div>
     </div>
@@ -25,9 +36,6 @@
 </template>
 
 <script>
-export default {
-
-}
 </script>
 
 <style>

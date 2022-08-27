@@ -160,7 +160,7 @@
       <ol class="relative border-l border-neutral dark:border-white">
 
         <li class="mb-10 ml-6">
-          <span class="flex absolute -left-3 justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
+          <span class="flex absolute -left-4 justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
             <i class="fa fa-desktop text-xl text-white dark:text-neutral"></i>
           </span>
           <h3 class="flex items-center text-lg font-semibold text-neutral dark:text-white">
@@ -180,21 +180,28 @@
         </li>
 
         <li class="mb-10 ml-6">
-          <span class="flex absolute -left-3  justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
+          <span class="flex absolute -left-4  justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
             <i class="fa fa-desktop text-xl text-white dark:text-neutral"></i>
           </span>
           <h3 class="flex items-center mb-1 text-lg font-semibold text-neutral dark:text-white">
-            Pengembang Front-End Web dan Back-End
+            Studi Independent Front-End Web dan Back-End
           </h3>
-          <h2 class="flex items-center mb-1 text-sm font-semibold text-neutral dark:text-white">Pt. Presentologics
+          <h2 class="flex items-center mb-1 text-sm font-semibold text-neutral dark:text-white">PT. Presentologics
             (Dicoding) |
-            MSIB Kampus Merdeka</h2>
+            MSIB Kampus Merdeka
+          </h2>
           <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Feb, 2022 - Jul, 2022</time>
-          <!-- <p class="mb-4 text-base font-normal leading-none text-neutral dark:text-white">
-            Create the first web using basic HTML, CSS, and JavaScript as the 3 pillars of building a website.
-            Proficient in using Javascript to create interactive websites. Using modern tools such as webpack in
-            developing websites. And do testing on the website that has been created
-          </p> -->
+
+
+        </li>
+
+        <li class="mb-10 ml-6">
+          <span class="flex absolute -left-4  justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
+            <i class="fa-solid fa-hourglass-start text-white dark:text-neutral"></i>
+          </span>
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-neutral dark:text-white">
+
+          </h3>
         </li>
 
 
@@ -209,4 +216,7 @@
 </script>
 
 <style>
+.-left-4 {
+  left: -14px !important;
+}
 </style>
