@@ -8,7 +8,7 @@
           <h1 class="md:text-3xl text-2xl text-neutral font-semibold dark:text-white">Fatah RobbySalam</h1>
           <div class="md:text-lg text-neutral dark:text-white">Website Developer</div>
           <a href="https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf"
-            class="text-neutral dark:text-white md:hidden mt-1 btn btn-sm dark:btn-primary">
+            class="md:hidden mt-1 btn btn-sm dark:btn-primary">
             <i class="fa fa-download mr-2"></i>Download CV
           </a>
         </div>
@@ -26,8 +26,8 @@
         </div>
         <div class="my-2">
           <a href="https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf"
-            class="text-neutral dark:text-white mt-1 btn btn-sm dark:btn-primary rounded">
-            <i class="fa fa-download mr-2"></i>Download CV
+            class="mt-1 btn btn-sm btn-neutral text-white dark:btn-primary rounded">
+            <i class="fa fa-download mr-2 "></i>Download CV
           </a>
         </div>
       </div>
