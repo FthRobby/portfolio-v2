@@ -12,7 +12,7 @@ import Footer from "../components/Footer.vue";
 export default {
   name: 'app',
   created() {
-    document.title = "Fatah Robby | Home";
+    document.title = "Fatah Robby ";
   }
 }
 </script>

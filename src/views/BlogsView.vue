@@ -8,12 +8,10 @@
     </header> -->
 
     <main class="h-screen flex flex-col justify-center items-center ">
-      <img src="../assets/nuxt.svg" class="max-h-40 lg:max-h-72">
-      <div class="dark:text-white text-neutral px-2 text-sm rounded absolute">
-        Page Not Found
-      </div>
-      <p class="mt-2 font-semibold text-neutral dark:text-white tracking-widest">Page is Under Building</p>
-      <a href="/" class="btn dark:btn-primary btn-neutral btn-sm mt-5"><i class="fa fa-arrow-left mr-3"></i> Go back</a>
+      <img src="../assets/maintenance.gif" class="lg:max-h-72 " />
+      <p class="font-semibold text-neutral dark:text-white tracking-widest text-xl">Page is Under Maintenance</p>
+      <a href="/" class="btn dark:btn-primary btn-neutral btn-sm mt-5  animate-bounce">
+        <i class="fa fa-arrow-left mr-3"></i> Go back</a>
     </main>
   </div>
 </template>
