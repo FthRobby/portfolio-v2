@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Fatah RobbySalam",
+    "image" : "profil.jpg",
+    "title": "Fullstack Web Developer",
+    "description": "Final semester students who understand and have an interest in the field of web programming and have skills proven by certification from the Dicoding platform. The focus of interest in web programming is frontend web developer.",
+    "email": "rbysalam10@gmail.com",
+    "linkedin": "Fatah RobbySalam",
+    "resume"  : "https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf",
+    "experience" : [
+      {
+        "id": 1,
+        "position": "Fullstack Web Developer",
+        "company": "PT. Git Solution | MBKM Kampus Merdeka",
+        "date": "Aug, 2022 - Presently"
+      },
+      {
+        "id": 2,
+        "position": "Pengembang Frontend Web dan Backend",
+        "company": "PT. Presentologics (Dicoding) | MSIB Kampus Merdeka",
+        "date": "Feb, 2022 - Jul, 2022"
+      }
+    ]
+  }
+]
