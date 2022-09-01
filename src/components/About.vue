@@ -1,11 +1,9 @@
 <template>
   <div class="md:w-2/3 px-8">
     <!-- about me -->
-    <div class="mb-6 mt-9">
+    <div class="mb-6 mt-9" v-for="person in personal" :key="person.name">
       <h2 class="mt-6 text-4xl text-neutral font-bold capitalize dark:text-white">Hi, I'm Roby</h2>
-      <p class="mt-8 mb-4 dark:text-white text-neutral">Final semester students who understand and have an interest in
-        the field of web programming and have skills proven by certification from the Dicoding platform. The focus of
-        interest in web programming is frontend web developer.</p>
+      <p class="mt-8 mb-4 dark:text-white text-neutral">{{ person.description }}</p>
     </div>
 
     <!-- tech stack -->
@@ -47,7 +45,7 @@
 
     <!-- certification skills -->
     <p class="text-neutral dark:text-white font-bold text-2xl mb-4 -ml-3 mt-10">Certification Skills</p>
-    <div class="mx-auto max-w-screen-lg px-1 py-2 mb-5">
+    <div class="mx-auto  px-1 py-2 mb-5" v-for="person in personal" :key="person.name">
       <div class="flex flex-col items-center justify-between gap-9 sm:flex-row">
         <!--  -->
         <div class="sm:w-5/12">
@@ -66,7 +64,6 @@
                   class="ml-3 fa fa-up-right-from-square"></i> </a>
             </div>
           </div>
-
           <div tabindex="0"
             class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box text-neutral dark:text-white">
             <div class="collapse-title text-xl font-medium">
@@ -81,7 +78,6 @@
                   class="ml-3 fa fa-up-right-from-square"></i> </a>
             </div>
           </div>
-
         </div>
 
         <!--  -->
@@ -100,7 +96,6 @@
                   class="ml-3 fa fa-up-right-from-square"></i> </a>
             </div>
           </div>
-
           <div tabindex="0"
             class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box text-neutral dark:text-white">
             <div class="collapse-title text-xl font-medium">
@@ -133,7 +128,6 @@
                   class="ml-3 fa fa-up-right-from-square"></i> </a>
             </div>
           </div>
-
           <div tabindex="0"
             class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box text-neutral dark:text-white">
             <div class="collapse-title text-xl font-medium">
@@ -157,54 +151,17 @@
     <!-- experience -->
     <div class="opacity-100 mt-10">
       <p class="text-neutral dark:text-white font-bold text-2xl mb-4 -ml-3">Experience</p>
-      <ol class="relative border-l border-neutral dark:border-white">
-
+      <ol class="relative" v-for="experience in experiences" :key="experience.id">
         <li class="mb-10 ml-6">
-          <span class="flex absolute -left-4 justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
-            <i class="fa fa-desktop text-xl text-white dark:text-neutral"></i>
+          <span class="mt-2 flex absolute -left-4 justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white">
+            <i class="fa fa-desktop text-xl text-white dark:text-neutral" aria-hidden="true"></i>
           </span>
-          <h3 class="flex items-center text-lg font-semibold text-neutral dark:text-white">
-            Fullstack Web Developer Intern
-            <span
-              class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-primary dark:text-white ml-3">
-              presently
-            </span>
+          <h3 class="flex items-center text-lg font-semibold text-neutral dark:text-white">{{ experience.position }}
           </h3>
-          <h2 class="flex items-center mb-1 text-sm font-semibold text-neutral dark:text-white"> PT. Git Solution | MBKM
-            Kampus Merdeka</h2>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Aug, 2022 - Presently</time>
-          <!-- <p class="mb-4 text-base font-normal leading-none text-neutral dark:text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, eius sequi? Minima est asperiores sit
-            repudiandae totam, quas maxime vel nesciunt obcaecati, deleniti quasi et omnis maiores, alias esse harum.
-          </p> -->
-        </li>
-
-        <li class="mb-10 ml-6">
-          <span class="flex absolute -left-4  justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
-            <i class="fa fa-desktop text-xl text-white dark:text-neutral"></i>
-          </span>
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-neutral dark:text-white">
-            Studi Independent Front-End Web dan Back-End
-          </h3>
-          <h2 class="flex items-center mb-1 text-sm font-semibold text-neutral dark:text-white">PT. Presentologics
-            (Dicoding) |
-            MSIB Kampus Merdeka
+          <h2 class="flex items-center mb-1 text-sm font-semibold text-neutral dark:text-white">{{ experience.company }}
           </h2>
-          <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Feb, 2022 - Jul, 2022</time>
-
-
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-400">{{ experience.date }}</time>
         </li>
-
-        <li class="mb-10 ml-6">
-          <span class="flex absolute -left-4  justify-center items-center w-7 h-7 bg-neutral rounded dark:bg-white ">
-            <i class="fa-solid fa-hourglass-start text-white dark:text-neutral"></i>
-          </span>
-          <h3 class="flex items-center mb-1 text-lg font-semibold text-neutral dark:text-white">
-
-          </h3>
-        </li>
-
-
       </ol>
     </div>
 
@@ -212,11 +169,17 @@
 </template>
 
 <script>
-
+import dataPersonal from '../data/personality.json'
+import dataExperience from '../data/experience.json'
+export default {
+  data() {
+    return {
+      personal: dataPersonal,
+      experiences: dataExperience
+    }
+  }
+}
 </script>
 
 <style>
-.-left-4 {
-  left: -14px !important;
-}
 </style>
