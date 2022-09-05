@@ -58,6 +58,9 @@ export default {
       detail
     };
   },
+  components: {
+    Footer
+  }
 
 }
 </script>
