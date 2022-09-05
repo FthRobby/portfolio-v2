@@ -17,13 +17,14 @@ import axios from "axios";
         <ul tabindex="0"
           class="menu menu-compact dropdown-content mt-3 p-2 shadow dark:bg-neutral bg-base-100 rounded-box w-52">
           <li>
-            <RouterLink class="dark:text-white text-neutral" to="/">Home</RouterLink>
+            <RouterLink class="dark:text-white text-neutral" to="/"><i class="fa fa-home"></i> Home</RouterLink>
           </li>
           <li>
-            <RouterLink class="dark:text-white text-neutral" to="/projects">Projects</RouterLink>
+            <RouterLink class="dark:text-white text-neutral" to="/projects"><i class="fa fa-laptop-code"></i> Projects
+            </RouterLink>
           </li>
           <li>
-            <RouterLink class="dark:text-white text-neutral" to="/posts">Blogs</RouterLink>
+            <RouterLink class="dark:text-white text-neutral" to="/posts"><i class="fa fa-book"></i> Blogs</RouterLink>
           </li>
         </ul>
       </div>
@@ -32,13 +33,15 @@ import axios from "axios";
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
         <li>
-          <RouterLink class="dark:text-white text-neutral" to="/">Home</RouterLink>
+          <RouterLink class="dark:text-white text-neutral" to="/"><i class="fa fa-home"></i> Home</RouterLink>
         </li>
         <li>
-          <RouterLink class="dark:text-white text-neutral" to="/projects">Projects</RouterLink>
+          <RouterLink class="dark:text-white text-neutral" to="/projects"><i class="fa fa-laptop-code"></i>Projects
+          </RouterLink>
         </li>
         <li>
-          <RouterLink class="dark:text-white text-neutral" to="/posts">Blogs</RouterLink>
+          <RouterLink class="dark:text-white text-neutral" to="/posts"> <i class="fa fa-book"></i>Blogs
+          </RouterLink>
         </li>
       </ul>
     </div>

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import HomePage from "../views/HomePage.vue";
 import BlogsPage from "../views/BlogsView.vue";
+import DetailPost from "../views/BlogDetail.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -23,6 +24,12 @@ const router = createRouter({
       path: "/posts",
       name: "posts",
       component: BlogsPage,
+    },
+    {
+      path: "/posts/:id_post",
+      name: "detail_post",
+      component: DetailPost,
+      props: true,
     },
   ],
 });

@@ -27,10 +27,10 @@ import Footer from "../components/Footer.vue";
 
 <script>
 export default {
-  name: 'app',
-  created() {
-    document.title = "Fatah Robby | Projects";
-  }
+  // name: 'app',
+  // created() {
+  //   document.title = "Fatah Robby | Projects";
+  // }
 }
 </script>
 
