@@ -10,7 +10,7 @@
           <li class="decoration-transparent">
             <RouterLink to="/posts"><i class="fa fa-book mr-1"></i> Blogs</RouterLink>
           </li>
-          <li>{{ detail.title }}</li>
+          <li><i class="fab fa-blogger mr-1"></i> {{ detail.title }}</li>
         </ul>
       </div>
       <h1 class="mb-4 lg:text-4xl text-4xl tracking-tight leading-9 text-neutral font-extrabold dark:text-white">
@@ -19,7 +19,7 @@
       <p class="text-lg text-neutral dark:text-white">{{ detail.description }}</p>
       <p class="text-md text-neutral dark:text-white mt-8">{{ detail.date }}</p>
 
-      <img class="mx-auto lg:w-2/5 w-4/5 my-7 rounded-md drop-shadow-sm" :src=detail.gambar :alt=detail.title>
+      <img class="mx-auto lg:w-2/5 w-4/5 my-7 rounded-md drop-shadow-sm" :src=detail.gambarDetail :alt=detail.title>
       <p class="text-neutral dark:text-white text-sm">posted by {{ detail.author }}</p>
     </header>
 
@@ -46,6 +46,7 @@
 import { blog } from '../data/Blog';
 import Footer from '../components/Footer.vue';
 
+
 export default {
   props: [
     "id_post"
@@ -66,4 +67,5 @@ export default {
 </script>
 
 <style>
+
 </style>

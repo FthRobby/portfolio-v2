@@ -8,12 +8,17 @@
     </header>
   </div>
 
-  <div class="flex gap-8 justify-center items-center flex-col">
+  <div class="flex gap-8 justify-center items-center lg:flex-row flex-col ">
     <div v-for="blog in state" :key="blog.id">
       <div class="card w-96  bg-base-100 shadow-xl image-full mb-3">
         <figure><img :src=blog.gambar alt={{blog.title}} /></figure>
         <div class="card-body">
-          <h2 class="card-title text-white">{{ blog.title }}</h2>
+          <h2 class="card-title text-white">
+            {{ blog.title }}
+            <div v-if="blog.isNew === true">
+              <div class="badge badge-primary ">new posts</div>
+            </div>
+          </h2>
           <p class="text-white">{{ blog.description }}</p>
           <div class="card-actions justify-end  mt-16">
             <RouterLink class="btn btn-primary btn-sm capitalize hover:translate-x-1"
@@ -32,10 +37,11 @@
 
 <script>
 // import postData from '../data/posts.json';
-import { RouterLink, RouterView } from "vue-router";
 
 import { onMounted, reactive } from 'vue';
 import { blog } from '../data/Blog';
+
+console.log(blog)
 
 export default {
   setup(props, context) {
@@ -58,4 +64,5 @@ export default {
 </script>
 
 <style>
+
 </style>
