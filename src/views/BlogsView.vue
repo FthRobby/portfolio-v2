@@ -15,8 +15,8 @@
         <div class="card-body">
           <h2 class="card-title text-white">
             {{ blog.title }}
-            <div v-if="blog.isNew === true">
-              <div class="badge badge-primary ">new posts</div>
+            <div v-if="blog.isNew">
+              <div class="badge badge-primary">new posts</div>
             </div>
           </h2>
           <p class="text-white">{{ blog.description }}</p>
@@ -41,7 +41,6 @@
 import { onMounted, reactive } from 'vue';
 import { blog } from '../data/Blog';
 
-console.log(blog)
 
 export default {
   setup(props, context) {
