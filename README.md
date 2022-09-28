@@ -6,29 +6,12 @@ About This Project: Create a professional website using Vue.Js and Tailwindcss. 
 
 <img src="/src/assets/banner.png" alt="banner" width="100%">
 
+## Live Demo
 
-## Recommended IDE Setup
+You can check the live demo [here](https://fatahrobby.vercel.app/) to get first-hand experience of the website.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Documentation
 
-## Customize configuration
+Learn about [Vue.Js](https://vuejs.org/guide/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Read Tailwindcss [docs](https://tailwindcss.com/docs) 
