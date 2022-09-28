@@ -31,6 +31,13 @@ const router = createRouter({
       component: DetailPost,
       props: true,
     },
+
+    // route to page not found when the route is not found
+    {
+      path: "/:pathMatch(.*)*",
+      name: "not_found",
+      component: () => import("../views/NotFound.vue"),
+    },
   ],
 });
 
