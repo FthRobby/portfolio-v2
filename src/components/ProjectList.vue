@@ -3,12 +3,12 @@
   <main class="relative mb-auto">
     <div class="flex flex-wrap -m-4 gap-5">
 
-      <div v-for="project in projects" :key="project.id"
+      <div v-for="project in state" :key="project.id"
         class="card w-96 bg-base-100 shadow-xl text-neutral dark:text-white">
         <figure><img :src=project.images :alt=project.name /></figure>
         <div class="card-body">
-          <h2 class="card-title justify-center">{{  project.name  }}</h2>
-          <p>{{  project.description  }}</p>
+          <h2 class="card-title justify-center">{{ project.name }}</h2>
+          <p>{{ project.description }}</p>
 
           <div class="flex flex-row">
             <p class="flex mt-2 gap-3 text-xl">
@@ -29,16 +29,36 @@
 </template>
 
 <script>
-import dataProject from '../data/project.json'
+import { onMounted, reactive } from 'vue';
+import { project } from '../data/Project';
+
+//import dataProject from '../data/project.json'
+
+// export default {
+//   data() {
+//     return {
+//       projects: dataProject
+//     }
+//   }
+// }
+
 export default {
-  data() {
+  setup(props, context) {
+    const state = reactive(project["project"])
+
+    onMounted(() => {
+      context.emit("id.menu", 3)
+    })
+
     return {
-      projects: dataProject
+      state
     }
-  }
+  },
 }
+
 
 </script>
 
 <style>
+
 </style>
