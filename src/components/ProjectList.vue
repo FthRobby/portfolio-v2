@@ -1,6 +1,6 @@
 <template>
   <!-- project card menu -->
-  <main class="relative mb-auto">
+  <div class="relative mb-auto">
     <div class="flex flex-wrap -m-4 gap-5">
 
       <div v-for="project in state" :key="project.id"
@@ -12,8 +12,10 @@
 
           <div class="flex flex-row">
             <p class="flex mt-2 gap-3 text-xl">
-              <i class="devicon-react-plain colored"></i>
-              <i class="devicon-tailwindcss-plain colored"></i>
+              <i class="devicon-react-plain colored" v-if="project.react"></i>
+              <i class="devicon-webpack-plain colored" v-if="project.webpack"></i>
+              <i class="devicon-tailwindcss-plain colored" v-if="project.tailwind"></i>
+              <i class="devicon-bootstrap-plain colored" v-if="project.bootstrap"></i>
             </p>
             <div class="card-actions justify-center">
               <a class="text-xl hover:-translate-y-1" :href=project.preview target="_blank">
@@ -25,7 +27,7 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
