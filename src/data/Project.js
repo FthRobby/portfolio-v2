@@ -8,6 +8,10 @@ export const project = {
       images: "../projects/ayo-masak/p1.png",
       preview: "https://ayo-masak.vercel.app/",
       repo: "https://github.com/",
+      react: true,
+      webpack: false,
+      tailwind: true,
+      bootstrap: false,
     },
     {
       id: "2",
@@ -17,6 +21,10 @@ export const project = {
       images: "projects/notesapp/p1.png",
       preview: "https://frobby-notesapp.vercel.app/",
       repo: "https://github.com/",
+      react: true,
+      webpack: false,
+      tailwind: true,
+      bootstrap: false,
     },
     {
       id: "3",
@@ -26,6 +34,10 @@ export const project = {
       images: "projects/mangan/p1.png",
       preview: "https://mangan-apps.vercel.app/",
       repo: "https://github.com/",
+      react: false,
+      webpack: true,
+      tailwind: false,
+      bootstrap: true,
     },
     {
       id: "4",
@@ -35,6 +47,10 @@ export const project = {
       images: "projects/hyundai-catalogue/p1.png",
       preview: "https://hyundai-catalogue.vercel.app/",
       repo: "https://github.com/",
+      react: false,
+      webpack: true,
+      tailwind: false,
+      bootstrap: true,
     },
   ],
 };
