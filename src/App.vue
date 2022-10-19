@@ -6,7 +6,7 @@ import axios from "axios";
 
 <template>
   <!-- navbar -->
-  <div class="navbar bg-base-300 dark:bg-neutral fixed top-0 z-50">
+  <div class="navbar bg-base-300 dark:bg-neutral fixed -top-1 z-50">
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">

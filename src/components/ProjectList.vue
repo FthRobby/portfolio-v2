@@ -3,8 +3,7 @@
   <div class="relative mb-auto">
     <div class="flex flex-wrap -m-4 gap-5">
 
-      <div v-for="project in state" :key="project.id"
-        class="card w-96 bg-base-100 shadow-xl text-neutral dark:text-white">
+      <div v-for="project in state" :key="project.id" class="card w-96 bg-neutral shadow-xl text-white">
         <figure><img :src=project.images :alt=project.name /></figure>
         <div class="card-body">
           <h2 class="card-title justify-center">{{ project.name }}</h2>

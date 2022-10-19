@@ -8,7 +8,7 @@
     </header>
   </div>
 
-  <div class="flex gap-8 justify-center items-center lg:flex-row flex-col ">
+  <div class="flex gap-8 justify-center items-center flex-wrap">
     <div v-for="blog in state" :key="blog.id">
       <div class="card w-96  bg-base-100 shadow-xl image-full mb-3">
         <figure><img :src=blog.gambar alt={{blog.title}} /></figure>
