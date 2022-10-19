@@ -1,7 +1,22 @@
 export const project = {
   project: [
     {
-      id: 1,
+      id: "1",
+      name: "Genius Bussiness",
+      description:
+        "Gneius Bussiness Landing Page, from company that offers services of web development, android or ios development, and training center.",
+      images: "projects/g-bisnis/p1.png",
+      preview: "#",
+      repo: "#",
+      vue: true,
+      webpack: false,
+      tailwind: true,
+      bootstrap: false,
+      css3: false,
+      deployment: false,
+    },
+    {
+      id: 2,
       name: "Ayo Masak",
       description:
         "Showing Indonesian Food and Drink Recipes. Data is fetched from Unofficial Masak Apa Hari Ini API and displayed in the website. The API is from Unofficial masapapahariini API.",
@@ -12,9 +27,11 @@ export const project = {
       webpack: false,
       tailwind: true,
       bootstrap: false,
+      css3: false,
+      deployment: true,
     },
     {
-      id: "2",
+      id: "3",
       name: "Notes App",
       description:
         "Notes App made using react js and tailwind css. This application was made as a final class submission at dicoding academy.",
@@ -25,9 +42,11 @@ export const project = {
       webpack: false,
       tailwind: true,
       bootstrap: false,
+      css3: false,
+      deployment: true,
     },
     {
-      id: "3",
+      id: "4",
       name: "Mangan Apps",
       description:
         "Mangan App made using Webpack and CSS3. This application was made as a final class submission at dicoding academy.",
@@ -37,10 +56,11 @@ export const project = {
       react: false,
       webpack: true,
       tailwind: false,
-      bootstrap: true,
+      css3: true,
+      deployment: true,
     },
     {
-      id: "4",
+      id: "5",
       name: "Hyundai Catalogue",
       description:
         "Catalogue of hyundai motors. Displaying the cars and their information. This project is for final submission of MSIB Dicoding.",
@@ -50,7 +70,8 @@ export const project = {
       react: false,
       webpack: true,
       tailwind: false,
-      bootstrap: true,
+      css3: true,
+      deployment: true,
     },
   ],
 };

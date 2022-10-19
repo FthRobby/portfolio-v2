@@ -3,7 +3,7 @@
   <div class="relative mb-auto">
     <div class="flex flex-wrap -m-4 gap-5">
 
-      <div v-for="project in state" :key="project.id" class="card w-96 bg-neutral shadow-xl text-white">
+      <div v-for="project in state" :key="project.id" class="card w-80 bg-neutral shadow-xl text-white">
         <figure><img :src=project.images :alt=project.name /></figure>
         <div class="card-body">
           <h2 class="card-title justify-center">{{ project.name }}</h2>
@@ -12,15 +12,17 @@
           <div class="flex flex-row">
             <p class="flex mt-2 gap-3 text-xl">
               <i class="devicon-react-plain colored" v-if="project.react"></i>
+              <i class="devicon-vuejs-plain colored" v-if="project.vue"></i>
               <i class="devicon-webpack-plain colored" v-if="project.webpack"></i>
               <i class="devicon-tailwindcss-plain colored" v-if="project.tailwind"></i>
               <i class="devicon-bootstrap-plain colored" v-if="project.bootstrap"></i>
+              <i class="devicon-css3-plain colored" v-if="project.css3"></i>
             </p>
             <div class="card-actions justify-center">
               <a class="text-xl hover:-translate-y-1" :href=project.preview target="_blank">
-                <i class="fa-solid fa-up-right-from-square"></i></a>
+                <i class="fa-solid fa-up-right-from-square" v-if="project.deployment"></i></a>
               <a class="text-xl hover:-translate-y-1" :href=project.repo target="_blank">
-                <i class="fa fa-github"></i></a>
+                <i class="fa fa-github" v-if="project.deployment"></i></a>
             </div>
           </div>
         </div>
