@@ -1,10 +1,25 @@
 export const project = {
   project: [
     {
-      id: "1",
+      id: 6,
+      name: "Genius Resto",
+      description:
+        "Genius retro is a product of genius business. Genius Resto is a progressive web application for ordering and paying for food menus in restaurants or cafes.made using the javascript framework, namely Vue js",
+      images: "projects/g-bisnis/p2.png",
+      preview: "#",
+      repo: "#",
+      vue: true,
+      webpack: false,
+      tailwind: true,
+      bootstrap: false,
+      css3: false,
+      deployment: false,
+    },
+    {
+      id: "5",
       name: "Genius Bussiness",
       description:
-        "Gneius Bussiness Landing Page, from company that offers services of web development, android or ios development, and training center.",
+        "Genius Bussiness Landing Page, from company that offers services of web development, android or ios development, and training center.",
       images: "projects/g-bisnis/p1.png",
       preview: "#",
       repo: "#",
@@ -16,7 +31,7 @@ export const project = {
       deployment: false,
     },
     {
-      id: 2,
+      id: 4,
       name: "Ayo Masak",
       description:
         "Showing Indonesian Food and Drink Recipes. Data is fetched from Unofficial Masak Apa Hari Ini API and displayed in the website. The API is from Unofficial masapapahariini API.",
@@ -46,7 +61,7 @@ export const project = {
       deployment: true,
     },
     {
-      id: "4",
+      id: "2",
       name: "Mangan Apps",
       description:
         "Mangan App made using Webpack and CSS3. This application was made as a final class submission at dicoding academy.",
@@ -60,7 +75,7 @@ export const project = {
       deployment: true,
     },
     {
-      id: "5",
+      id: "1",
       name: "Hyundai Catalogue",
       description:
         "Catalogue of hyundai motors. Displaying the cars and their information. This project is for final submission of MSIB Dicoding.",
