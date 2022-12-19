@@ -23,9 +23,9 @@ import axios from "axios";
             <RouterLink class="dark:text-white text-neutral" to="/projects"><i class="fa fa-laptop-code"></i> Projects
             </RouterLink>
           </li>
-          <li>
+          <!-- <li>
             <RouterLink class="dark:text-white text-neutral" to="/posts"><i class="fa fa-book"></i> Blogs</RouterLink>
-          </li>
+          </li> -->
         </ul>
       </div>
       <RouterLink class="btn btn-ghost normal-case text-xl dark:text-white text-neutral" to="/">Fatah Robby</RouterLink>
