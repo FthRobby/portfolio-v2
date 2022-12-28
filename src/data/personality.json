@@ -1,13 +1,13 @@
 [
   {
     "name": "Fatah RobbySalam",
-    "image" : "profil.jpg",
+    "image": "profile.jpeg",
     "title": "Fullstack Web Developer",
     "description": "Final semester students who understand and have an interest in the field of web programming and have skills proven by certification from the Dicoding platform. The focus of interest in web programming is frontend web developer.",
     "email": "rbysalam10@gmail.com",
     "linkedin": "Fatah RobbySalam",
-    "resume"  : "https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf",
-    "experience" : [
+    "resume": "https://github.com/FthRobby/portfolio-v2/raw/master/src/assets/resume/Fatah-RobbySalam.pdf",
+    "experience": [
       {
         "id": 1,
         "position": "Fullstack Web Developer",
