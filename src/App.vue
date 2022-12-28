@@ -6,7 +6,7 @@ import axios from "axios";
 
 <template>
   <!-- navbar -->
-  <div class="navbar bg-base-300 dark:bg-neutral fixed -top-1 z-50">
+  <div class="navbar bg-base-300 dark:bg-neutral fixed -top-1 z-50 shadow-xl">
     <div class="navbar-start">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -39,10 +39,10 @@ import axios from "axios";
           <RouterLink class="dark:text-white text-neutral" to="/projects"><i class="fa fa-laptop-code"></i>Projects
           </RouterLink>
         </li>
-        <li>
+        <!-- <li>
           <RouterLink class="dark:text-white text-neutral" to="/posts"> <i class="fa fa-book"></i>Blogs
           </RouterLink>
-        </li>
+        </li> -->
       </ul>
     </div>
     <div class="navbar-end ">
@@ -55,3 +55,17 @@ import axios from "axios";
 
 
 </template>
+
+<script>
+import { addBackToTop } from "vanilla-back-to-top";
+
+export default {
+  mounted() {
+    addBackToTop({
+      diameter: 56,
+      backgroundColor: "#1a202c",
+      textColor: "#fff",
+    })
+  }
+}
+</script>
