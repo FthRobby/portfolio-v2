@@ -9,13 +9,20 @@
       </div>
     </div>
     <div>
-      <p>Copyright © 2022 - Fatah RobbySalam</p>
+      <p>Copyright © {{ year }} - Fatah RobbySalam</p>
     </div>
   </footer>
 </template>
 
 <script>
-</script>
 
-<style>
-</style>
+export default {
+  name: 'Footer',
+  data() {
+    return {
+      year: new Date().getFullYear()
+    }
+  }
+}
+
+</script>
