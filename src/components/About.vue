@@ -10,10 +10,10 @@
     <div class="mt-8">
       <!-- frontend -->
       <div class="mt-2">
-        <h2 class="mb-2 text-xl text-neutral dark:text-white capitalize font-bold">Frontend</h2>
+        <h2 class="mb-2 text-xl text-neutral dark:text-white capitalize font-bold">Tech Stack</h2>
         <ul class="flex flex-wrap gap-4 items-center">
           <li class="flex items-center">
-            <i class="mt-1 h-10 w-10 devicon-bootstrap-plain text-3xl text-primary"></i>
+            <i class="mt-1 h-10 w-10 devicon-bootstrap-plain text-3xl text-[#6f2df6]"></i>
           </li>
           <li class="flex items-center">
             <i class="mt-1 h-10 w-10 devicon-tailwindcss-plain colored text-3xl"></i>
@@ -30,7 +30,7 @@
         </ul>
       </div>
       <!-- backend -->
-      <div class="mt-4">
+      <!-- <div class="mt-4">
         <h2 class="mb-2 text-xl text-neutral dark:text-white capitalize font-bold">Backend</h2>
         <ul class="flex flex-wrap gap-4 items-center">
           <li class="flex items-center">
@@ -40,7 +40,7 @@
             <i class="mt-1 h-10 w-10 devicon-nodejs-plain colored text-3xl "></i>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
 
     <!-- certification skills -->
