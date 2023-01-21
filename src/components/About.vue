@@ -44,7 +44,7 @@
     </div>
 
     <!-- certification skills -->
-    <p class="text-neutral dark:text-white font-bold text-2xl mb-4 -ml mt-10">Skills</p>
+    <p class="text-neutral dark:text-white font-bold text-xl mb-4 -ml mt-10">Skills</p>
     <div class="mx-auto  px-1 py-2 mb-5">
       <div class="flex flex-col items-center justify-between gap-9 sm:flex-row ">
         <!--  -->

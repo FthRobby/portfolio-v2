@@ -1,7 +1,7 @@
 <template>
   <!-- project card menu -->
   <div class="relative mb-auto">
-    <div class="flex flex-wrap -m-4 gap-5">
+    <div class="flex flex-wrap m-2 gap-5">
 
       <div v-for="project in state" :key="project.id" class="card w-80 bg-neutral shadow-xl text-white">
         <figure><img :src=project.images :alt=project.name /></figure>
@@ -27,6 +27,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
