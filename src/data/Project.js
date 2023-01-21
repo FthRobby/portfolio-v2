@@ -1,7 +1,7 @@
 export const project = {
   project: [
     {
-      id: 6,
+      id: "7",
       name: "Genius Resto",
       description:
         "Genius retro is a product of genius business. Genius Resto is a progressive web application for ordering and paying for food menus in restaurants or cafes.made using the javascript framework, namely Vue js",
@@ -16,7 +16,7 @@ export const project = {
       deployment: false,
     },
     {
-      id: "5",
+      id: "6",
       name: "Genius Bussiness",
       description:
         "Genius Bussiness Landing Page, from company that offers services of web development, android or ios development, and training center.",
@@ -31,7 +31,22 @@ export const project = {
       deployment: false,
     },
     {
-      id: 4,
+      id: "5",
+      name: "Alqur-an Online",
+      description:
+        "Alqur-an Online is a progressive web application that displays the quran in arabic and indonesian language. This application is made using the javascript framework, namely Vue js",
+      images: "projects/alquran/p1.png",
+      preview: "#",
+      repo: "https://github.com/",
+      vue: true,
+      webpack: false,
+      tailwind: true,
+      bootstrap: false,
+      css3: false,
+      deployment: false,
+    },
+    {
+      id: "4",
       name: "Ayo Masak",
       description:
         "Showing Indonesian Food and Drink Recipes. Data is fetched from Unofficial Masak Apa Hari Ini API and displayed in the website. The API is from Unofficial masapapahariini API.",
