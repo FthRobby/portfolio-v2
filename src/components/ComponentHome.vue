@@ -10,7 +10,3 @@ import About from "./About.vue";
 import Headline from "./Headline.vue";
 
 </script>
-
-<style>
-
-</style>
